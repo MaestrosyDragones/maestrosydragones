@@ -1,0 +1,10 @@
+{
+  "milestones": [
+    { "threshold": 0,   "label": "Madera",   "icon": "assets/madera.png",   "color": "#8B5A2B" },
+    { "threshold": 100, "label": "Bronce",   "icon": "assets/bronce.png",   "color": "#CD5C5C" },
+    { "threshold": 250, "label": "Plata",    "icon": "assets/plata.png",    "color": "#C0C0C0" },
+    { "threshold": 500, "label": "Oro",      "icon": "assets/oro.png",      "color": "#FFD700" },
+    { "threshold": 750, "label": "Platino",  "icon": "assets/platino.png",  "color": "#55A0FF" },
+    { "threshold": 1000,"label": "Diamante", "icon": "assets/diamante.png", "color": "#9B30FF" }
+  ]
+}

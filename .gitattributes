@@ -1,0 +1,23 @@
+# Normalizar los finales de línea (muy importante si alguien abre el repo en Windows y otros en Linux)
+* text=auto eol=lf
+
+# Forzar que Python siempre sea tratado como texto
+*.py text diff
+
+# Forzar que los archivos de requisitos se lean como texto
+requirements.txt text
+
+# Forzar que Markdown y TOML también sean texto
+*.md text
+*.toml text
+
+# Para imágenes o binarios: Git no intentará leerlos como texto
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp3 binary
+*.mp4 binary
+*.woff binary
+*.woff2 binary
+*.ttf binary

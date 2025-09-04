@@ -1,0 +1,8 @@
+streamlit>=1.41,<2
+pandas>=2.2.3,<2.4
+numpy>=2.0,<3
+Pillow>=11.0.0,<12
+streamlit-image-coordinates==0.1.7
+gspread==6.1.2
+google-auth==2.31.0
+

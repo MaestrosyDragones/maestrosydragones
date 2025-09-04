@@ -1,0 +1,13 @@
+# Ignorar entorno virtual
+.venv/
+__pycache__/
+*.pyc
+
+# Ignorar secretos (¡nunca subirlos a GitHub!)
+.streamlit/secrets.toml
+.streamlit/service_account.json
+
+# Archivos de sistema
+Thumbs.db
+.DS_Store
+*.log
